@@ -36,12 +36,10 @@ precision, recall, f1-score, specificity, ROC-AUC and confusion-matrix analysis.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/Split-Aware-Transformer-Benchmarking-Breast-Histopathology.git
+git clone https://github.com/VarCoder-6739/Split-Aware-Transformer-Benchmarking_XAI_VLM-for-Breast-Cancer-Histopathology.git
 
-cd Split-Aware-Transformer-Benchmarking-Breast-Histopathology
+cd Split-Aware-Transformer-Benchmarking_XAI_VLM-for-Breast-Cancer-Histopathology
 ```
-
-Replace `<YOUR_GITHUB_USERNAME>` with your GitHub username after creating the repository.
 
 ### 2. Create a Virtual Environment
 
@@ -90,6 +88,7 @@ ollama run gemma4:12b
 ```
 
 Ensure that the Ollama service is running before executing the vision-language interpretation stage.
+
 
 **Note:** The VLM interpretation stage is separate from Transformer training and evaluation. It can be executed after generating the required attention or feature-activation maps.
 
